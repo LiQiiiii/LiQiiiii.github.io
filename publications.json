@@ -28,7 +28,7 @@
       "venue": "Preprint (2025)",
       "thumbnail": "images/thumbs/02.jpg",
       "selected": 1,
-      "award": "The 1st Model Attribution Study on Discrete Diffusion LLMs (dLLMs)",
+      "award": "",
       "links": {
         "pdf": "https://arxiv.org/pdf/2510.05148",
         "code": "https://github.com/LiQiiiii/dLLM-Attribution"
@@ -44,7 +44,7 @@
       "venue": "Preprint (2025)",
       "thumbnail": "images/thumbs/3.jpg",
       "selected": 1,
-      "award": "The 1st Survey on Discrete Diffusion LLMs (dLLMs)",
+      "award": "",
       "links": {
         "pdf": "https://arxiv.org/pdf/2506.13759",
         "code": "https://github.com/LiQiiiii/DLLM-Survey"
@@ -60,7 +60,7 @@
       "venue": "NeurIPS'25",
       "thumbnail": "images/thumbs/5.jpg",
       "selected": 1,
-      "award": "The 1st MIA against Video Understanding LLMs",
+      "award": "",
       "links": {
         "pdf": "https://arxiv.org/pdf/2506.03179?",
         "code": "https://github.com/LiQiiiii/Vid-SME"
@@ -76,7 +76,7 @@
       "venue": "ICCV'25",
       "thumbnail": "images/thumbs/6.jpg",
       "selected": 1,
-      "award": "An exploration into performance consistency between merging and ensembling",
+      "award": "",
       "links": {
         "pdf": "https://openaccess.thecvf.com/content/ICCV2025/papers/Li_Towards_Performance_Consistency_in_Multi-Level_Model_Collaboration_ICCV_2025_paper.pdf",
         "code": "https://github.com/LiQiiiii/Neural-Ligand"
@@ -95,7 +95,7 @@
       "venue": "USENIX Security'25",
       "thumbnail": "images/thumbs/4.jpg",
       "selected": 1,
-      "award": "A framework for sample-level unlearning completeness quantification",
+      "award": "",
       "links": {
         "pdf": "https://arxiv.org/pdf/2506.06112",
         "code": "https://github.com/Happy2Git/Unlearning_Inference_IAM"
@@ -144,7 +144,7 @@
       "venue": "ECCV'24",
       "thumbnail": "images/thumbs/9.jpg",
       "selected": 1,
-      "award": "A new knowledge transfer paradigm via visual prompts",
+      "award": "",
       "links": {
         "pdf": "https://arxiv.org/pdf/2407.11902",
         "code": "https://github.com/LiQiiiii/Encapsulating-Knowledge-In-One-Prompt"

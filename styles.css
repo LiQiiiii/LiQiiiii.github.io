@@ -452,4 +452,68 @@ strong {
   nav a:hover, .social-links-header a:hover, .pub-links a:hover {
     transform: none !important;
   }
+    @media (max-width: 768px) {
+
+  header {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+
+  .social-links-header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  
+  .publications-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  
+  .publication-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .pub-thumbnail {
+    width: 100%;          
+    max-width: 260px;     
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+
+  .pub-thumbnail img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Disable right-moving hover animations on mobile */
+  .publication-item:hover, .award-item:hover, 
+  .service-category:hover, .misc-item:hover, .news-list li:hover,
+  nav a:hover, .social-links-header a:hover, .pub-links a:hover {
+    transform: none !important;
+  }
+}
+
+#publications,
+#publications-container {
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.pub-thumbnail {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.pub-thumbnail img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }

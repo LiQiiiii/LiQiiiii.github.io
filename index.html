@@ -16,21 +16,21 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;500;600&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
-    <style>
-    /* TunTun gallery layout override */
+<style>
     #miscellaneous .misc-photos {
         display: flex;
-        justify-content: flex-start;
         gap: 12px;
         margin-top: 12px;
-        max-width: 460px;   /* 整个区域不要太宽，可以按需要调 */
+        width: 55%;        
+        max-width: 55%;    
+        box-sizing: border-box;
     }
-
     #miscellaneous .misc-photos img {
-        width: 50%;
-        height: auto;
+        flex: 1 1 0;        
+        width: 55%;       
+        height: auto;     
         border-radius: 8px;
-        object-fit: cover;
+        object-fit: cover; 
     }
 </style>
 </head>

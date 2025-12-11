@@ -1,0 +1,245 @@
+{
+  "publications": [
+    {
+      "title": "MixReasoning: Switching Modes to Think",
+      "authors": [
+        "Haiquan Lu",
+        "Gongfan Fang",
+        "Xinyin Ma",
+        "Qi Li",
+        "Xinchao Wang"
+      ],
+      "venue": "Preprint (2025)",
+      "thumbnail": "images/thumbs/01.jpg",
+      "selected": 0,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2510.06052"
+      }
+    },
+    {
+      "title": "Every Step Counts: Decoding Trajectories as Authorship Fingerprints of dLLMs",
+      "authors": [
+        "Qi Li",
+        "Runpeng Yu",
+        "Haiquan Lu",
+        "Xinchao Wang"
+      ],
+      "venue": "Preprint (2025)",
+      "thumbnail": "images/thumbs/02.jpg",
+      "selected": 1,
+      "award": "The 1st Model Attribution Study on Discrete Diffusion LLMs (dLLMs)",
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2510.05148",
+        "code": "https://github.com/LiQiiiii/dLLM-Attribution"
+      }
+    },
+    {
+      "title": "Discrete Diffusion in Large Language and Multimodal Models: A Survey",
+      "authors": [
+        "Runpeng Yu *",
+        "Qi Li *",
+        "Xinchao Wang"
+      ],
+      "venue": "Preprint (2025)",
+      "thumbnail": "images/thumbs/3.jpg",
+      "selected": 1,
+      "award": "The 1st Survey on Discrete Diffusion LLMs (dLLMs)",
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2506.13759",
+        "code": "https://github.com/LiQiiiii/DLLM-Survey"
+      }
+    },
+    {
+      "title": "Vid-SME: Membership Inference Attacks against Large Video Understanding Models",
+      "authors": [
+        "Qi Li",
+        "Runpeng Yu",
+        "Xinchao Wang"
+      ],
+      "venue": "NeurIPS'25",
+      "thumbnail": "images/thumbs/5.jpg",
+      "selected": 1,
+      "award": "The 1st MIA against Video Understanding LLMs",
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2506.03179?",
+        "code": "https://github.com/LiQiiiii/Vid-SME"
+      }
+    },
+    {
+      "title": "Towards Performance Consistency in Multi-Level Model Collaboration",
+      "authors": [
+        "Qi Li",
+        "Runpeng Yu",
+        "Xinchao Wang"
+      ],
+      "venue": "ICCV'25",
+      "thumbnail": "images/thumbs/6.jpg",
+      "selected": 1,
+      "award": "An exploration into performance consistency between merging and ensembling",
+      "links": {
+        "pdf": "https://openaccess.thecvf.com/content/ICCV2025/papers/Li_Towards_Performance_Consistency_in_Multi-Level_Model_Collaboration_ICCV_2025_paper.pdf",
+        "code": "https://github.com/LiQiiiii/Neural-Ligand"
+
+      }
+    },
+    {
+      "title": "Towards Lifecycle Unlearning Commitment Management: Measuring Sample-level Unlearning Completeness",
+      "authors": [
+        "Cheng-Long Wang",
+        "Qi Li",
+        "Zihang Xiang",
+        "Yinzhi Cao",
+        "Di Wang"
+      ],
+      "venue": "USENIX Security'25",
+      "thumbnail": "images/thumbs/4.jpg",
+      "selected": 1,
+      "award": "A framework for sample-level unlearning completeness quantification",
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2506.06112",
+        "code": "https://github.com/Happy2Git/Unlearning_Inference_IAM"
+      }
+    },
+    {
+      "title": "GraphBridge: Towards Arbitrary Transfer Learning in GNNs",
+      "authors": [
+        "Li Ju",
+        "Xingyi Yang",
+        "Qi Li",
+        "Xinchao Wang"
+      ],
+      "venue": "ICLR'25",
+      "thumbnail": "images/thumbs/7.jpg",
+      "selected": 0,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2502.19252",
+        "code": "https://github.com/jujulili888/GraphBridge"
+      }
+    },
+    {
+      "title": "Data Lineage Inference: Uncovering Privacy Vulnerabilities of Dataset Pruning",
+      "authors": [
+        "Qi Li",
+        "Cheng-Long Wang",
+        "Yinzhi Cao",
+        "Di Wang"
+      ],
+      "venue": "Preprint (2024)",
+      "thumbnail": "images/thumbs/8.jpg",
+      "selected": 0,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2411.15796"
+      }
+    },
+    {
+      "title": "Encapsulating Knowledge in One Prompt",
+      "authors": [
+        "Qi Li",
+        "Runpeng Yu",
+        "Xinchao Wang"
+      ],
+      "venue": "ECCV'24",
+      "thumbnail": "images/thumbs/9.jpg",
+      "selected": 1,
+      "award": "A new knowledge transfer paradigm via visual prompts",
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2407.11902",
+        "code": "https://github.com/LiQiiiii/Encapsulating-Knowledge-In-One-Prompt"
+      }
+    },
+    {
+      "title": "Towards Robust and Accurate Visual Prompting",
+      "authors": [
+        "Qi Li",
+        "Liangzhi Li",
+        "Zhouqiang Jiang",
+        "Bowen Wang"
+      ],
+      "venue": "Preprint (2023)",
+      "thumbnail": "images/thumbs/10.jpg",
+      "selected": 0,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2311.10992"
+      }
+    },
+    {
+      "title": "HEPT Attack: Heuristic Perpendicular Trial for Hard-label Attacks under Limited Query Budgets",
+      "authors": [
+        "Qi Li",
+        "Xingyu Li",
+        "Xiaodong Cui",
+        "Keke Tang",
+        "Peican Zhu"
+      ],
+      "venue": "CIKM'23",
+      "thumbnail": "images/thumbs/11.jpg",
+      "selected": 0,
+      "award": "",
+      "links": {
+        "pdf": "https://dl.acm.org/doi/abs/10.1145/3583780.3615198"
+      }
+    },
+    {
+      "title": "Influence Maximization through Exploring Structural Information",
+      "authors": [
+        "Qi Li",
+        "Le Cheng",
+        "Wei Wang",
+        "Xianghua Li",
+        "Shudong Li",
+        "Peican Zhu"
+      ],
+      "venue": "Applied Mathematics and Computation (2023)",
+      "thumbnail": "images/thumbs/12.jpg",
+      "selected": 0,
+      "award": "",
+      "links": {
+        "pdf": "https://www.sciencedirect.com/science/article/abs/pii/S0096300322007895"
+      }
+    },
+    {
+      "title": "Accmyrinx: Speech Synthesis with Non-Acoustic Sensor",
+      "authors": [
+        "Yunji Liang",
+        "Yuchen Qin",
+        "Qi Li",
+        "Xiaokai Yan",
+        "Zhiwen Yu",
+        "Bin Guo",
+        "Sagar Samtani",
+        "Yanyong Zhang"
+      ],
+      "venue": "UbiComp'22",
+      "thumbnail": "images/thumbs/13.jpg",
+      "selected": 0,
+      "award": "",
+      "links": {
+        "pdf": "https://www.researchgate.net/profile/Sagar-Samtani/publication/362250560_AccMyrinx_Speech_Synthesis_with_Non-Acoustic_Sensor/links/62df9dc93c0ea878875b5835/AccMyrinx-Speech-Synthesis-with-Non-Acoustic-Sensor.pdf"
+      }
+    },
+    {
+      "title": "An Escalated Eavesdropping Attack on Mobile Devices via Low-Resolution Vibration Signals",
+      "authors": [
+        "Yunji Liang",
+        "Yuchen Qin",
+        "Qi Li",
+        "Xiaokai Yan",
+        "Luwen Huangfu",
+        "Sagar Samtani",
+        "Bin Guo",
+        "Zhiwen Yu"
+      ],
+      "venue": "IEEE Transactions on Dependable and Secure Computing (TDSC)",
+      "thumbnail": "images/thumbs/14.jpg",
+      "selected": 0,
+      "award": "",
+      "links": {
+        "pdf": "https://ieeexplore.ieee.org/abstract/document/9861696/"
+      }
+    }
+  ]
+}

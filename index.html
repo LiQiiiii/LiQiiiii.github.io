@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Academic Homepage">
+    <meta name="keywords" content="Computer Science, PhD Student, Research, Machine Learning, MultiModal">
+    <meta name="author" content="Anonymous">
+    <meta property="og:title" content="Academic Homepage - PhD Student">
+    <meta property="og:description" content="Research in computer science and related fields.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="#">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@anonymous">
+    <title>Qi Li's Homepage</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;500;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    /* TunTun gallery layout override */
+    #miscellaneous .misc-photos {
+        display: flex;
+        justify-content: flex-start;
+        gap: 12px;
+        margin-top: 12px;
+        max-width: 460px;   /* 整个区域不要太宽，可以按需要调 */
+    }
+
+    #miscellaneous .misc-photos img {
+        width: 50%;
+        height: auto;
+        border-radius: 8px;
+        object-fit: cover;
+    }
+</style>
+</head>
+<body id="top">
+    <header>
+        <div class="header-content">
+            <h1>Qi Li</h1>
+            <p>PhD Student • National University of Singapore (NUS)</p>
+            <div class="social-links-header">
+                <a href="https://scholar.google.ca/citations?user=gsV-g2wAAAAJ&hl=en"><i class="fas fa-graduation-cap"></i>Google Scholar</a>
+                <a href="https://x.com/BigFffat"><i class="fab fa-twitter"></i>Twitter</a>
+                    <a href="https://www.linkedin.com/in/liqiiii/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i>LinkedIn</a>
+                <a href="https://github.com/LiQiiiii"><i class="fab fa-github"></i>GitHub</a>
+                <a href="mailto:liqi@u.nus.edu"><i class="fas fa-envelope"></i>Email</a>
+            </div>
+        </div>
+        <div class="header-image">
+            <img src="images/profile1.jpg" alt="Profile Photo">
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <p>Hi there. I am a first-year PhD student in the <a href="https://sites.google.com/view/xml-nus">xML Lab</a> at ECE, NUS, advised by Prof. <a href="https://sites.google.com/site/sitexinchaowang/">Xinchao Wang</a>. Previously, I received my M.Sc. in Computer Engineering from NUS and my B.E. in Computer Science from Northwestern Polytechnical University.
+
+</p>
+        </section>
+
+        <section id="research">
+            <h2>Research</h2>
+            <p>My research focuses on <strong>AI Safety</strong> (e.g., Membership Inference Attack, Unlearning) and <strong>Multimodal Learning</strong> (e.g., vision and language). My recent works explore:</p>
+            <ul>
+                <li>Data Privacy of Foundation Models (<a href="https://arxiv.org/abs/2506.03179">NeurIPS'25</a>, <a href="https://arxiv.org/abs/2506.06112">Usenix Security'25</a>)</li>
+                <li>Efficient Transfer Learning (<a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Li_Towards_Performance_Consistency_in_Multi-Level_Model_Collaboration_ICCV_2025_paper.pdf">ICCV'25</a>, <a href="https://arxiv.org/pdf/2502.19252">ICLR'25</a>, <a href="https://arxiv.org/pdf/2407.11902">ECCV'24</a>)</li>
+            </ul>
+        </section>
+
+        <section id="news">
+            <h2>News</h2>
+            <div class="news-container">
+                <ul class="news-list">
+                    <li>[09/2025]: One paper accepted to NeurIPS 2025: <a href="https://arxiv.org/abs/2506.03179">Vid-SME</a>.</li>
+                    <li>[08/2025]: Starting my Ph.D. at ECE, NUS.</li>
+                    <li>[07/2025]: One paper accepted to ICCV 2025: <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Li_Towards_Performance_Consistency_in_Multi-Level_Model_Collaboration_ICCV_2025_paper.pdf">NeuLig</a>.</li>
+                    <li>[06/2025]: One paper accepted to Usenix Security 2025: <a href="https://arxiv.org/abs/2506.06112">IAM</a>.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="publications">
+            <div class="publications-header">
+                <h2 id="toggle-header">Selected Publications</h2>
+                <button id="toggle-publications" class="toggle-publications">Show All</button>
+            </div>
+            <div id="publications-container">
+                <!-- Publications will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <!-- <section id="awards">
+            <h2>Awards</h2>
+            <div class="award-item">
+                <span class="award-year">[YYYY]</span>
+                <div class="award-desc">[Award 1]</div>
+            </div>
+            <div class="award-item">
+                <span class="award-year">[YYYY]</span>
+                <div class="award-desc">[Award 2]</div>
+            </div>
+            <div class="award-item">
+                <span class="award-year">[YYYY]</span>
+                <div class="award-desc">[Award 3]</div>
+            </div>
+            <div class="award-item">
+                <span class="award-year">[YYYY]</span>
+                <div class="award-desc">[Award 4]</div>
+            </div>
+            <div class="award-item">
+                <span class="award-year">[YYYY]</span>
+                <div class="award-desc">[Award 5]</div>
+            </div>
+            <div class="award-item">
+                <span class="award-year">[YYYY]</span>
+                <div class="award-desc">[Award 6]</div>
+            </div>
+        </section> -->
+
+        <section id="services">
+            <h2>Services</h2>
+            <div class="service-category">
+                <div class="service-title">Reviewer</div>
+                <p>NeurIPS'24'25, ICLR'24'25, ICCV'25, WACV'24'25, CVPR'26, TKDE, TSNE, etc.</p>
+            </div>
+<!-- 
+            <div class="service-category">
+                <div class="service-title">Teaching Assistant</div>
+                <p><a href="#">[Course Code 1]</a>, <a href="#">[Course Code 2]</a></p>
+            </div>
+
+            <div class="service-category">
+                <div class="service-title">Volunteer</div>
+                <p>[Role 1], [Role 2], [Role 3]</p>
+            </div> -->
+        </section>
+
+        <section id="miscellaneous">
+            <h2>Miscellaneous</h2>
+            <div class="misc-item">
+                <p>
+                    When I am not thinking about models, I am fortunate to be supervised by my cat,
+                    TunTun (吨吨 in Chinese), who consistently outperforms me in both curiosity
+                    and napping efficiency.
+                </p>
+
+                <div class="misc-photos">
+                    <img src="images/tuntun2.jpg" alt="TunTun the cat">
+                    <img src="images/tuntun3.jpg" alt="TunTun the cat">
+                    <img src="images/tuntun4.jpg" alt="TunTun the cat">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Last updated: 12/2025.</p>
+    </footer>
+
+    <div id="imageModal" class="modal">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,4 +1,20 @@
 {
+  {
+    "title": "Every Step Counts: Decoding Trajectories as Authorship Fingerprints of dLLMs",
+    "authors": [
+      "Qi Li",
+      "Cheng-Long Wang",
+      "Yinzhi Cao",
+      "Di Wang"
+      ],
+      "venue": "ACL main (2026)",
+      "thumbnail": "images/thumbs/15.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2604.12342"
+      }
+    },
   "publications": [
     {
       "title": "MixReasoning: Switching Modes to Think",

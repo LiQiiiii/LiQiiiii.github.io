@@ -1,7 +1,7 @@
 {
   "publications": [
     {
-      "title": "Every Step Counts: Decoding Trajectories as Authorship Fingerprints of dLLMs",
+      "title": "CoLA: A Choice Leakage Attack Framework to Expose Privacy Risks in Subset Training",
       "authors": [
         "Qi Li",
         "Cheng-Long Wang",

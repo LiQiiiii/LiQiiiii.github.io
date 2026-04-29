@@ -1,6 +1,7 @@
 // Global variables
 let allPublications = [];
-let showingSelected = true;
+let showingSelectedPreprints = true;
+let showingSelectedPublications = true;
 
 // Initialize the page
 document.addEventListener('DOMContentLoaded', function() {
@@ -13,10 +14,16 @@ document.addEventListener('DOMContentLoaded', function() {
     section.style.animationDelay = `${index * 0.1}s`;
   });
   
-  // Add event listener for toggle button
-  const toggleButton = document.getElementById('toggle-publications');
-  if (toggleButton) {
-    toggleButton.addEventListener('click', togglePublications);
+  // Add event listener for publication toggle button
+  const togglePublicationsButton = document.getElementById('toggle-publications');
+  if (togglePublicationsButton) {
+    togglePublicationsButton.addEventListener('click', togglePublications);
+  }
+
+  // Add event listener for preprint toggle button
+  const togglePreprintsButton = document.getElementById('toggle-preprints');
+  if (togglePreprintsButton) {
+    togglePreprintsButton.addEventListener('click', togglePreprints);
   }
 });
 
@@ -32,43 +39,98 @@ function loadPublications() {
     .then(data => {
       console.log("Publications loaded successfully:", data);
       allPublications = data.publications;
+
+      renderPreprints(true);
       renderPublications(true);
     })
     .catch(error => {
       console.error('Error loading publications:', error);
-      // Create fallback publications display if JSON loading fails
       displayFallbackPublications();
     });
 }
 
 // Fallback if JSON loading fails
 function displayFallbackPublications() {
-  const container = document.getElementById('publications-container');
-  container.innerHTML = `Error loading publications.`;
+  const preprintsContainer = document.getElementById('preprints-container');
+  if (preprintsContainer) {
+    preprintsContainer.innerHTML = `Error loading preprints.`;
+  }
+
+  const publicationsContainer = document.getElementById('publications-container');
+  if (publicationsContainer) {
+    publicationsContainer.innerHTML = `Error loading publications.`;
+  }
+}
+
+// Toggle between showing all or selected preprints
+function togglePreprints() {
+  showingSelectedPreprints = !showingSelectedPreprints;
+  renderPreprints(showingSelectedPreprints);
+
+  const toggleButton = document.getElementById('toggle-preprints');
+  if (toggleButton) {
+    toggleButton.textContent = showingSelectedPreprints ? 'Show All' : 'Show Selected';
+  }
+
+  const preprintsHeader = document.querySelector('#preprints .publications-header h2');
+  if (preprintsHeader) {
+    preprintsHeader.textContent = showingSelectedPreprints ? 'Selected Preprints' : 'All Preprints';
+  }
 }
 
 // Toggle between showing all or selected publications
 function togglePublications() {
-  showingSelected = !showingSelected;
-  renderPublications(showingSelected);
+  showingSelectedPublications = !showingSelectedPublications;
+  renderPublications(showingSelectedPublications);
   
-  // Update button text
   const toggleButton = document.getElementById('toggle-publications');
-  toggleButton.textContent = showingSelected ? 'Show All' : 'Show Selected';
+  if (toggleButton) {
+    toggleButton.textContent = showingSelectedPublications ? 'Show All' : 'Show Selected';
+  }
+
   const toggleHeader = document.getElementById('toggle-header');
-  toggleHeader.textContent = showingSelected ? 'Selected Publications' : 'All Publications';
+  if (toggleHeader) {
+    toggleHeader.textContent = showingSelectedPublications ? 'Selected Publications' : 'All Publications';
+  }
 }
 
-// Render publications based on selection state
+// Render preprints
+function renderPreprints(selectedOnly) {
+  const preprintsContainer = document.getElementById('preprints-container');
+  if (!preprintsContainer) return;
+
+  preprintsContainer.innerHTML = '';
+
+  let preprintsToShow = allPublications.filter(publication =>
+    publication.type === 'preprint'
+  );
+
+  if (selectedOnly) {
+    preprintsToShow = preprintsToShow.filter(publication => publication.selected === 1);
+  }
+
+  preprintsToShow.forEach(publication => {
+    const pubElement = createPublicationElement(publication);
+    preprintsContainer.appendChild(pubElement);
+  });
+}
+
+// Render accepted publications
 function renderPublications(selectedOnly) {
   const publicationsContainer = document.getElementById('publications-container');
+  if (!publicationsContainer) return;
+
   publicationsContainer.innerHTML = '';
-  
-  const pubsToShow = selectedOnly ? 
-    allPublications.filter(pub => pub.selected === 1) : 
-    allPublications;
-  
-  pubsToShow.forEach(publication => {
+
+  let publicationsToShow = allPublications.filter(publication =>
+    publication.type === 'publication'
+  );
+
+  if (selectedOnly) {
+    publicationsToShow = publicationsToShow.filter(publication => publication.selected === 1);
+  }
+
+  publicationsToShow.forEach(publication => {
     const pubElement = createPublicationElement(publication);
     publicationsContainer.appendChild(pubElement);
   });
@@ -103,10 +165,9 @@ function createPublicationElement(publication) {
   const authors = document.createElement('div');
   authors.className = 'pub-authors';
   
-  // Format authors with highlighting
   let authorsHTML = '';
   publication.authors.forEach((author, index) => {
-    if (author.includes('Author 3')) { // TODO: Highlight specific author
+    if (author.includes('Qi Li')) {
       authorsHTML += `<span class="highlight-name">${author}</span>`;
     } else {
       authorsHTML += author;
@@ -129,7 +190,6 @@ function createPublicationElement(publication) {
   venue.textContent = publication.venue;
   venueContainer.appendChild(venue);
   
-  // Add award if it exists
   if (publication.award && publication.award.length > 0) {
     const award = document.createElement('div');
     award.className = 'pub-award';
@@ -148,6 +208,8 @@ function createPublicationElement(publication) {
       const pdfLink = document.createElement('a');
       pdfLink.href = publication.links.pdf;
       pdfLink.textContent = '[PDF]';
+      pdfLink.target = '_blank';
+      pdfLink.rel = 'noopener noreferrer';
       links.appendChild(pdfLink);
     }
     
@@ -155,6 +217,8 @@ function createPublicationElement(publication) {
       const codeLink = document.createElement('a');
       codeLink.href = publication.links.code;
       codeLink.textContent = '[Code]';
+      codeLink.target = '_blank';
+      codeLink.rel = 'noopener noreferrer';
       links.appendChild(codeLink);
     }
     
@@ -162,13 +226,14 @@ function createPublicationElement(publication) {
       const projectLink = document.createElement('a');
       projectLink.href = publication.links.project;
       projectLink.textContent = '[Project Page]';
+      projectLink.target = '_blank';
+      projectLink.rel = 'noopener noreferrer';
       links.appendChild(projectLink);
     }
     
     content.appendChild(links);
   }
   
-  // Assemble the publication item
   pubItem.appendChild(thumbnail);
   pubItem.appendChild(content);
   
@@ -200,4 +265,4 @@ window.onclick = function(event) {
   if (event.target == modal) {
     closeModal();
   }
-}
+};

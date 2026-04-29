@@ -1,6 +1,29 @@
 {
   "publications": [
     {
+      "title": "Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms",
+      "authors": [
+        "Qi Li *",
+        "Bo Yin *",
+        "Weiqi Huang *",
+        "Ruhao Liu *",
+        "Bojun Zou",
+        "Runpeng Yu",
+        "Jingwen Ye",
+        "Weihao Yu",
+        "Xinchao Wang"
+      ],
+      "venue": "Preprint (2026)",
+      "type": "preprint",
+      "thumbnail": "images/thumbs/15.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2604.23775"
+        "code": "https://github.com/LiQiiiii/Awesome-VLA-Safety"
+      }
+    },
+    {
       "title": "CoLA: A Choice Leakage Attack Framework to Expose Privacy Risks in Subset Training",
       "authors": [
         "Qi Li",
@@ -9,6 +32,7 @@
         "Di Wang"
       ],
       "venue": "ACL main (2026)",
+      "type": "publication",
       "thumbnail": "images/thumbs/15.jpg",
       "selected": 1,
       "award": "",
@@ -26,6 +50,7 @@
         "Xinchao Wang"
       ],
       "venue": "Preprint (2025)",
+      "type": "preprint",
       "thumbnail": "images/thumbs/01.jpg",
       "selected": 0,
       "award": "",
@@ -42,6 +67,7 @@
         "Xinchao Wang"
       ],
       "venue": "Preprint (2025)",
+      "type": "preprint",
       "thumbnail": "images/thumbs/02.jpg",
       "selected": 1,
       "award": "",
@@ -58,6 +84,7 @@
         "Xinchao Wang"
       ],
       "venue": "Preprint (2025)",
+      "type": "preprint",
       "thumbnail": "images/thumbs/3.jpg",
       "selected": 1,
       "award": "",
@@ -74,6 +101,7 @@
         "Xinchao Wang"
       ],
       "venue": "NeurIPS'25",
+      "type": "publication",
       "thumbnail": "images/thumbs/5.jpg",
       "selected": 1,
       "award": "",
@@ -90,6 +118,7 @@
         "Xinchao Wang"
       ],
       "venue": "ICCV'25",
+      "type": "publication",
       "thumbnail": "images/thumbs/6.jpg",
       "selected": 1,
       "award": "",
@@ -109,6 +138,7 @@
         "Di Wang"
       ],
       "venue": "USENIX Security'25",
+      "type": "publication",
       "thumbnail": "images/thumbs/4.jpg",
       "selected": 1,
       "award": "",
@@ -126,28 +156,13 @@
         "Xinchao Wang"
       ],
       "venue": "ICLR'25",
+      "type": "publication",
       "thumbnail": "images/thumbs/7.jpg",
       "selected": 0,
       "award": "",
       "links": {
         "pdf": "https://arxiv.org/pdf/2502.19252",
         "code": "https://github.com/jujulili888/GraphBridge"
-      }
-    },
-    {
-      "title": "Data Lineage Inference: Uncovering Privacy Vulnerabilities of Dataset Pruning",
-      "authors": [
-        "Qi Li",
-        "Cheng-Long Wang",
-        "Yinzhi Cao",
-        "Di Wang"
-      ],
-      "venue": "Preprint (2024)",
-      "thumbnail": "images/thumbs/8.jpg",
-      "selected": 0,
-      "award": "",
-      "links": {
-        "pdf": "https://arxiv.org/pdf/2411.15796"
       }
     },
     {
@@ -158,6 +173,7 @@
         "Xinchao Wang"
       ],
       "venue": "ECCV'24",
+      "type": "publication",
       "thumbnail": "images/thumbs/9.jpg",
       "selected": 1,
       "award": "",
@@ -175,6 +191,7 @@
         "Bowen Wang"
       ],
       "venue": "Preprint (2023)",
+      "type": "preprint",
       "thumbnail": "images/thumbs/10.jpg",
       "selected": 0,
       "award": "",
@@ -192,6 +209,7 @@
         "Peican Zhu"
       ],
       "venue": "CIKM'23",
+      "type": "publication",
       "thumbnail": "images/thumbs/11.jpg",
       "selected": 0,
       "award": "",
@@ -210,6 +228,7 @@
         "Peican Zhu"
       ],
       "venue": "Applied Mathematics and Computation (2023)",
+      "type": "publication",
       "thumbnail": "images/thumbs/12.jpg",
       "selected": 0,
       "award": "",
@@ -230,6 +249,7 @@
         "Yanyong Zhang"
       ],
       "venue": "UbiComp'22",
+      "type": "publication",
       "thumbnail": "images/thumbs/13.jpg",
       "selected": 0,
       "award": "",
@@ -250,6 +270,7 @@
         "Zhiwen Yu"
       ],
       "venue": "IEEE Transactions on Dependable and Secure Computing (TDSC)",
+      "type": "publication",
       "thumbnail": "images/thumbs/14.jpg",
       "selected": 0,
       "award": "",

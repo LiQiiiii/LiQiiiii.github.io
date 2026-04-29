@@ -24,6 +24,22 @@
       }
     },
     {
+      "title": "Sponge Tool Attack: Stealthy Denial-of-Efficiency against Tool-Augmented Agentic Reasoning",
+      "authors": [
+        "Qi Li",
+        "Xinchao Wang"
+      ],
+      "venue": "Preprint (2026)",
+      "type": "preprint",
+      "thumbnail": "images/thumbs/17.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/abs/2601.17566",
+        "code": "https://liqiiiii.github.io/Sponge-Tool-ProjectPage/"
+      }
+    },
+    {
       "title": "CoLA: A Choice Leakage Attack Framework to Expose Privacy Risks in Subset Training",
       "authors": [
         "Qi Li",

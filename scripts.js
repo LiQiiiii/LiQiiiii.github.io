@@ -83,9 +83,10 @@ function renderPreprints() {
 
   preprintsContainer.innerHTML = '';
 
-  const preprintsToShow = allPublications.filter(publication =>
-    isPreprint(publication) && publication.selected === 1
-  );
+  const preprintsToShow = allPublications.filter(publication => {
+    const venue = publication.venue ? publication.venue.toLowerCase() : '';
+    return venue.includes('Preprint') && publication.selected === 1;
+  });
 
   preprintsToShow.forEach(publication => {
     const pubElement = createPublicationElement(publication);

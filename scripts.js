@@ -99,15 +99,22 @@ function renderPublications(selectedOnly) {
   if (!publicationsContainer) return;
 
   publicationsContainer.innerHTML = '';
-  
-  const acceptedPublications = allPublications.filter(publication =>
-    !isPreprint(publication)
-  );
 
-  const pubsToShow = selectedOnly
-    ? acceptedPublications.filter(publication => publication.selected === 1)
-    : acceptedPublications;
-  
+  const pubsToShow = allPublications.filter(publication => {
+    const venue = publication.venue ? publication.venue.toLowerCase() : '';
+    const isPreprint = venue.includes('preprint');
+
+    if (isPreprint) {
+      return false;
+    }
+
+    if (selectedOnly) {
+      return publication.selected === 1;
+    }
+
+    return true;
+  });
+
   pubsToShow.forEach(publication => {
     const pubElement = createPublicationElement(publication);
     publicationsContainer.appendChild(pubElement);

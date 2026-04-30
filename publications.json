@@ -43,6 +43,60 @@
       }
     },
     {
+      "title": "Anatomy of a Lie: A Multi-Stage Diagnostic Framework for Tracing Hallucinations in Vision-Language Models",
+      "authors": [
+        "Lexiang Xiong *",
+        "Qi Li *",
+        "Jingwen Ye",
+        "Xinchao Wang"
+      ],
+      "venue": "Preprint (2026)",
+      "type": "preprint",
+      "thumbnail": "images/thumbs/19.jpg",
+      "selected": 0,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2603.15557",
+        "code": "https://github.com/Lexiang-Xiong/CAD"
+      }
+    },
+    {
+      "title": "Refinement Provenance Inference: Detecting LLM-Refined Training Prompts from Model Behavior",
+      "authors": [
+        "Bo Yin *",
+        "Qi Li *",
+        "Runpeng Yu",
+        "Xinchao Wang"
+      ],
+      "venue": "Preprint (2026)",
+      "type": "preprint",
+      "thumbnail": "images/thumbs/20.jpg",
+      "selected": 0,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2601.01966",
+        "code": "https://github.com/YinBo0927/RePro"
+      }
+    },
+    {
+      "title": "AutoMIA: Improved Baselines for Membership Inference Attack via Agentic Self-Exploration",
+      "authors": [
+        "Ruhao Liu *",
+        "Weiqi Huang *",
+        "Qi Li *",
+        "Xinchao Wang"
+      ],
+      "venue": "Preprint (2026)",
+      "type": "preprint",
+      "thumbnail": "images/thumbs/21.jpg",
+      "selected": 0,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2604.01014",
+        "code": "https://github.com/amiya-special/AutoMIA"
+      }
+    },
+    {
       "title": "Sponge Tool Attack: Stealthy Denial-of-Efficiency against Tool-Augmented Agentic Reasoning",
       "authors": [
         "Qi Li",

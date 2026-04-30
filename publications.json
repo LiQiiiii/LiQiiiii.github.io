@@ -40,6 +40,24 @@
       }
     },
     {
+      "title": "Every Step Counts: Decoding Trajectories as Authorship Fingerprints of dLLMs",
+      "authors": [
+        "Qi Li",
+        "Runpeng Yu",
+        "Haiquan Lu",
+        "Xinchao Wang"
+      ],
+      "venue": "ICML'26",
+      "type": "publication",
+      "thumbnail": "images/thumbs/02.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2510.05148",
+        "code": "https://github.com/LiQiiiii/dLLM-Attribution"
+      }
+    },
+    {
       "title": "CoLA: A Choice Leakage Attack Framework to Expose Privacy Risks in Subset Training",
       "authors": [
         "Qi Li",
@@ -65,31 +83,13 @@
         "Qi Li",
         "Xinchao Wang"
       ],
-      "venue": "Preprint (2025)",
-      "type": "preprint",
+      "venue": "ICML'26",
+      "type": "publication",
       "thumbnail": "images/thumbs/01.jpg",
       "selected": 0,
       "award": "",
       "links": {
         "pdf": "https://arxiv.org/pdf/2510.06052"
-      }
-    },
-    {
-      "title": "Every Step Counts: Decoding Trajectories as Authorship Fingerprints of dLLMs",
-      "authors": [
-        "Qi Li",
-        "Runpeng Yu",
-        "Haiquan Lu",
-        "Xinchao Wang"
-      ],
-      "venue": "ICML'26",
-      "type": "publication",
-      "thumbnail": "images/thumbs/02.jpg",
-      "selected": 1,
-      "award": "",
-      "links": {
-        "pdf": "https://arxiv.org/pdf/2510.05148",
-        "code": "https://github.com/LiQiiiii/dLLM-Attribution"
       }
     },
     {

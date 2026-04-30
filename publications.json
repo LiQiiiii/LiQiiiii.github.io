@@ -24,6 +24,25 @@
       }
     },
     {
+      "title": "Self-Purification Mitigates Backdoors in Multimodal Diffusion Language Models",
+      "authors": [
+        "Guangnian Wan",
+        "Qi Li",
+        "Gongfan Fang",
+        "Xinyin Ma",
+        "Xinchao Wang"
+      ],
+      "venue": "Preprint (2026)",
+      "type": "preprint",
+      "thumbnail": "images/thumbs/18.jpg",
+      "selected": 0,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2602.22246",
+        "code": "https://github.com/bigglesworthnotacat/Diffusion_Self_Purification"
+      }
+    },
+    {
       "title": "Sponge Tool Attack: Stealthy Denial-of-Efficiency against Tool-Augmented Agentic Reasoning",
       "authors": [
         "Qi Li",

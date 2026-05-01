@@ -217,9 +217,12 @@ section {
 }
 
 .pub-venue {
-  font-size: 0.9rem;
-  font-style: italic;
-  color: var(--text-secondary);
+    font-style: normal;
+    font-size: 0.93rem;
+    font-weight: 600;
+    color: #4f5f6b;
+    letter-spacing: 0.01em;
+    margin-top: 4px;
 }
 
 .pub-award {

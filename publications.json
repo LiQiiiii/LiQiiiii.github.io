@@ -102,7 +102,7 @@
         "Qi Li",
         "Xinchao Wang"
       ],
-      "venue": "ICML'26",
+      "venue": "International Conference on Machine Learning (ICML'26)",
       "type": "publication",
       "thumbnail": "images/thumbs/17.jpg",
       "selected": 1,
@@ -120,7 +120,7 @@
         "Haiquan Lu",
         "Xinchao Wang"
       ],
-      "venue": "ICML'26",
+      "venue": "International Conference on Machine Learning (ICML'26)",
       "type": "publication",
       "thumbnail": "images/thumbs/02.jpg",
       "selected": 1,
@@ -138,7 +138,7 @@
         "Yinzhi Cao",
         "Di Wang"
       ],
-      "venue": "ACL'26 (main)",
+      "venue": "Annual Meeting of the Association for Computational Linguistics (ACL'26 main)",
       "type": "publication",
       "thumbnail": "images/thumbs/15.jpg",
       "selected": 1,
@@ -156,7 +156,7 @@
         "Qi Li",
         "Xinchao Wang"
       ],
-      "venue": "ICML'26",
+      "venue": "International Conference on Machine Learning (ICML'26)",
       "type": "publication",
       "thumbnail": "images/thumbs/01.jpg",
       "selected": 0,
@@ -189,7 +189,7 @@
         "Runpeng Yu",
         "Xinchao Wang"
       ],
-      "venue": "NeurIPS'25",
+      "venue": "Neural Information Processing Systems (NeurIPS'25)",
       "type": "publication",
       "thumbnail": "images/thumbs/5.jpg",
       "selected": 1,
@@ -206,7 +206,7 @@
         "Runpeng Yu",
         "Xinchao Wang"
       ],
-      "venue": "ICCV'25",
+      "venue": "International Conference on Computer Vision (ICCV'25)",
       "type": "publication",
       "thumbnail": "images/thumbs/6.jpg",
       "selected": 1,
@@ -226,7 +226,7 @@
         "Yinzhi Cao",
         "Di Wang"
       ],
-      "venue": "USENIX Security'25",
+      "venue": "USENIX Security Symposium (USENIX Security'25)",
       "type": "publication",
       "thumbnail": "images/thumbs/4.jpg",
       "selected": 1,
@@ -244,7 +244,7 @@
         "Qi Li",
         "Xinchao Wang"
       ],
-      "venue": "ICLR'25",
+      "venue": "International Conference on Learning Representations (ICLR'25)",
       "type": "publication",
       "thumbnail": "images/thumbs/7.jpg",
       "selected": 0,
@@ -261,7 +261,7 @@
         "Runpeng Yu",
         "Xinchao Wang"
       ],
-      "venue": "ECCV'24",
+      "venue": "European Conference on Computer Vision (ECCV'24)",
       "type": "publication",
       "thumbnail": "images/thumbs/9.jpg",
       "selected": 1,
@@ -297,7 +297,7 @@
         "Keke Tang",
         "Peican Zhu"
       ],
-      "venue": "CIKM'23",
+      "venue": "ACM International Conference on Information and Knowledge Management (CIKM'23)",
       "type": "publication",
       "thumbnail": "images/thumbs/11.jpg",
       "selected": 0,
@@ -337,7 +337,7 @@
         "Sagar Samtani",
         "Yanyong Zhang"
       ],
-      "venue": "UbiComp'22",
+      "venue": "ACM International Joint Conference on Pervasive & Ubiquitous Computing (UbiComp'22)",
       "type": "publication",
       "thumbnail": "images/thumbs/13.jpg",
       "selected": 0,

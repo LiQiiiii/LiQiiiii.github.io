@@ -230,6 +230,15 @@ function createPublicationElement(publication) {
       projectLink.rel = 'noopener noreferrer';
       links.appendChild(projectLink);
     }
+
+    if (publication.links.dataset) {
+      const datasetLink = document.createElement('a');
+      datasetLink.href = publication.links.dataset;
+      datasetLink.textContent = '[Dataset]';
+      datasetLink.target = '_blank';
+      datasetLink.rel = 'noopener noreferrer';
+      links.appendChild(datasetLink);
+    }
     
     content.appendChild(links);
   }

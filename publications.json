@@ -1,6 +1,23 @@
 {
   "publications": [
     {
+      "title": "ViMU: Benchmarking Video Metaphorical Understanding",
+      "authors": [
+        "Qi Li",
+        "Xinchao Wang"
+      ],
+      "venue": "Preprint (2026)",
+      "type": "preprint",
+      "thumbnail": "images/thumbs/17.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2605.14607",
+        "code": "https://github.com/LiQiiiii/Video-Metaphorical-Understanding"
+        "dataset": "https://huggingface.co/datasets/LIQIIIII/ViMU"
+      }
+    },
+    {
       "title": "Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms",
       "authors": [
         "Qi Li *",

@@ -13,7 +13,7 @@
       "award": "",
       "links": {
         "pdf": "https://arxiv.org/pdf/2605.14607",
-        "code": "https://github.com/LiQiiiii/Video-Metaphorical-Understanding"
+        "code": "https://github.com/LiQiiiii/Video-Metaphorical-Understanding",
         "dataset": "https://huggingface.co/datasets/LIQIIIII/ViMU"
       }
     },

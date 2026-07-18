@@ -1,6 +1,24 @@
 {
   "publications": [
     {
+      "title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
+      "authors": [
+        "Qi Li",
+        "Xingyi Yang",
+        "Xinchao Wang"
+      ],
+      "venue": "Preprint (2026)",
+      "type": "preprint",
+      "thumbnail": "images/thumbs/23.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2607.15207",
+        "code": "https://github.com/LiQiiiii/BadWAM",
+      }
+    },
+  "publications": [
+    {
       "title": "ViMU: Benchmarking Video Metaphorical Understanding",
       "authors": [
         "Qi Li",

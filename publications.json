@@ -198,7 +198,8 @@
       "selected": 0,
       "award": "",
       "links": {
-        "pdf": "https://arxiv.org/pdf/2510.06052"
+        "pdf": "https://arxiv.org/pdf/2510.06052",
+        "code": "https://github.com/haiquanlu/MixReasoning"
       }
     },
     {

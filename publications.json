@@ -1,6 +1,28 @@
 {
   "publications": [
     {
+      "title": "Efficiency in LLM Multi-Agent Systems: A Survey",
+      "authors": [
+        "Qi Li",
+        "Lexiang Xiong",
+        "Haiquan Lu",
+        "Wenjie Qu",
+        "Xingyi Yang",
+        "Jiaheng Zhang",
+        "Xinchao Wang"
+      ],
+      "venue": "Preprint (2026)",
+      "type": "preprint",
+      "thumbnail": "images/thumbs/24.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "project": "https://lexiang-xiong.github.io/Awesome-Efficient-MAS/",
+        "pdf": "https://lexiang-xiong.github.io/Awesome-Efficient-MAS/assets/Efficiency_LLM_MAS_Survey.pdf",
+        "code": "https://github.com/Lexiang-Xiong/Awesome-Efficient-MAS"
+      }
+    },
+    {
       "title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
       "authors": [
         "Qi Li",

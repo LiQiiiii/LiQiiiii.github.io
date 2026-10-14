@@ -1,6 +1,23 @@
 {
   "publications": [
     {
+      "title": "Jeva: System One Models from First Principles",
+      "authors": [
+        "Qi Li",
+        "Xinchao Wang"
+      ],
+      "venue": "Preprint (2026)",
+      "type": "preprint",
+      "thumbnail": "images/thumbs/25.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "project": https://liqiiiii.github.io/Jeva/",
+        "pdf": "https://arxiv.org/pdf/2610.18773v1",
+        "code": "https://github.com/LiQiiiii/Jeva"
+      }
+    },
+    {
       "title": "Efficiency in LLM Multi-Agent Systems: A Survey",
       "authors": [
         "Qi Li",

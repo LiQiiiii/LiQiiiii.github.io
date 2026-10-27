@@ -20,9 +20,9 @@
     {
       "title": "Efficiency in LLM Multi-Agent Systems: A Survey",
       "authors": [
-        "Qi Li",
-        "Lexiang Xiong",
-        "Haiquan Lu",
+        "Qi Li *",
+        "Lexiang Xiong *",
+        "Haiquan Lu *",
         "Wenjie Qu",
         "Xingyi Yang",
         "Jiaheng Zhang",
